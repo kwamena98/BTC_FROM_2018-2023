@@ -20,11 +20,11 @@ btc_dates=BTC.Date
 
 
 plt.plot(btc_dates,btc_highs,color='orange',label="BTC")
-plt.plot(btc_dates,eth_highs,color='purple',label="ETH")
 
-plt.ylabel("BTC and ETH")
+
+plt.ylabel("BTC")
 plt.xlabel("DATE")
 
 plt.legend()
-plt.show()
+plt.savefig('btc.png')
 
